@@ -1,4 +1,4 @@
-import React from "react";
+
 import { navLinks } from "../constants";
 
 interface Props {}

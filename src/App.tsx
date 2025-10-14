@@ -1,5 +1,6 @@
-import React from "react";
-import Navbar from "./components/navbar";
+
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 interface Props {}
 
@@ -9,6 +10,7 @@ function App(props: Props) {
   return (
     <main>
       <Navbar/>
+      <Hero/>
     </main>
   );
 }
