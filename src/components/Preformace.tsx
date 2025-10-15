@@ -4,12 +4,11 @@ import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 import gsap from "gsap";
 
-interface Props {}
 
-function Preformace(props: Props) {
+function Preformace() {
   const isMobile = useMediaQuery({ query: "(max-width: 1024px)" });
   const sectionRef = useRef(null);
-  const {} = props;
+  
   useGSAP(
     () => {
       gsap.fromTo(
