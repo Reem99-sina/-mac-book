@@ -17,7 +17,7 @@ function App(props: Props) {
   const {} = props;
 
   return (
-    <main>
+    <main className="px-5">
       <Navbar/>
       <Hero/>
       <ProductView/>
